@@ -1,0 +1,12 @@
+{
+  "Cutebot_Pro.I2CInit": "I2C 초기화",
+  "Cutebot_Pro.PID": "PID 제어 모듈",
+  "Cutebot_Pro.motorRun": "모터 제어 모듈",
+  "Cutebot_Pro.mototRun": "모터 제어 모듈",
+  "Cutebot_Pro.mototStop": "모터 정지 모듈",
+  "Cutebot_Pro.readPatrol": "라인 감지 센서 상태",
+  "Cutebot_Pro.readSpeed": "모터 속도 읽기",
+  "Cutebot_Pro.readeDistance": "주행 거리 반환",
+  "Cutebot_Pro.servoRun": "서보 제어 모듈",
+  "Cutebot_Pro.setRGBLight": "RGB LED 색상 설정"
+}
