@@ -20,7 +20,9 @@
         "_locales/cs/pxt-cutebotpro-strings.json",
         "_locales/cs/pxt-cutebotpro-jsdoc-strings.json",
         "_locales/ko/pxt-cutebotpro-strings.json",
-        "_locales/ko/pxt-cutebotpro-jsdoc-strings.json"
+        "_locales/ko/pxt-cutebotpro-jsdoc-strings.json",
+        "_locales/ko-kr/pxt-cutebotpro-strings.json",
+        "_locales/ko-kr/pxt-cutebotpro-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
