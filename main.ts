@@ -1,5 +1,3 @@
-
-
 enum CutebotProPIN {
     P0 = 3,
     P1 = 2,
@@ -12,38 +10,35 @@ enum CutebotProPIN {
     P15 = 21,
 };
 
-
-
 enum CutebotProWheel {
-    //%block="left wheel"
+    //% block="왼쪽 바퀴"
     LeftWheel = 1,
-    //%block="right wheel"
+    //% block="오른쪽 바퀴"
     RightWheel = 2,
-    //%block="all wheel"
+    //% block="모든 바퀴"
     AllWheel = 3
 }
 
-
 enum CutebotProMotors {
-    //% block="left wheel"
+    //% block="왼쪽 바퀴"
     M1 = 1,
-    //% block="right wheel"
+    //% block="오른쪽 바퀴"
     M2 = 2,
-    //% block="all wheel"
+    //% block="모든 바퀴"
     ALL = 3
 }
 
 enum CutebotProMotors1 {
-    //% block="left wheel"
+    //% block="왼쪽 바퀴"
     M1 = 1,
-    //% block="right wheel"
+    //% block="오른쪽 바퀴"
     M2 = 2,
 }
 
 enum CutebotProDir {
-    //% block="rotate forward"
+    //% block="앞으로(정방향)"
     CW = 1,
-    //% block="backward"
+    //% block="뒤로(역방향)"
     CCW = 2
 }
 
@@ -59,135 +54,131 @@ enum CutebotProServoIndex {
 }
 
 enum CutebotProRGBLight {
-    //%block="left RGB"
+    //% block="왼쪽 앞 LED"
     RGBL = 2,
-    //%block="right RGB"
+    //% block="오른쪽 앞 LED"
     RGBR = 1,
-    //%block="all RGB lights"
+    //% block="앞 LED 모두"
     RGBA = 3
 }
 
 enum CutebotProPatrol {
     //% block="L1"
     L1 = 1,
-    //%block="L2"
+    //% block="L2"
     L2 = 2,
-    //%block="L3"
+    //% block="L3"
     L3 = 5,
-    //%block="R1"
+    //% block="R1"
     R1 = 3,
-    //%block="R2"
+    //% block="R2"
     R2 = 4,
-    //%block="R3"
+    //% block="R3"
     R3 = 6
 }
 
-
 enum CutebotProPID {
-    //%block="off"
+    //% block="끄기"
     OFF = 0,
-    //%block="on"
+    //% block="켜기"
     ON = 1
 }
 
 enum CutebotProDistanceUnits {
-    //%block="cm"
+    //% block="cm(센티미터)"
     Cm = 0,
-    //%block="inch"
+    //% block="inch(인치)"
     Ft = 1,
 }
 
 enum CutebotProAngleUnits {
-    //%block="angle"
+    //% block="각도(°)"
     Angle = 0,
-    //%block="circle"
+    //% block="바퀴 수(바퀴)"
     Circle = 1,
 }
 
 enum CutebotProOrientation {
-    //%block="forward"
+    //% block="앞으로"
     Advance = 1,
-    //%block="reverse"
+    //% block="뒤로"
     Retreat = 0
 }
 
-
 enum CutebotProSpeedUnits {
-    //%block="cm/s"
+    //% block="cm/초"
     Cms = 0,
-    //%block="inch/s"
+    //% block="inch/초"
     Ins = 1
 }
 
 enum CutebotProTurn {
-    //%block="turn left"
+    //% block="왼쪽으로 돌기"
     Left = 0,
-    //%block="turn right"
+    //% block="오른쪽으로 돌기"
     Right = 1,
-    //%block="turn left at place"
+    //% block="제자리에서 왼쪽 돌기"
     LeftInPlace = 2,
-    //%block="turn right at place"
+    //% block="제자리에서 오른쪽 돌기"
     RightInPlace = 3
-
 }
 
 enum CutebotProAngle {
-    //%block="45°"
+    //% block="45°"
     Angle45 = 45,
-    //%block="90°"
+    //% block="90°"
     Angle90 = 90,
-    //%block="135°"
+    //% block="135°"
     Angle135 = 135,
-    //%block="180°"
+    //% block="180°"
     Angle180 = 180
 }
 
-
 enum TrackbitStateType {
-    //% block="◌ ◌ ◌ ◌" 
+    //% block="◌ ◌ ◌ ◌"
     Tracking_State_0 = 0,
-    //% block="◌ ● ● ◌" 
+    //% block="◌ ● ● ◌"
     Tracking_State_1 = 6,
-    //% block="◌ ◌ ● ◌" 
+    //% block="◌ ◌ ● ◌"
     Tracking_State_2 = 4,
-    //% block="◌ ● ◌ ◌" 
+    //% block="◌ ● ◌ ◌"
     Tracking_State_3 = 2,
 
-
-    //% block="● ◌ ◌ ●" 
+    //% block="● ◌ ◌ ●"
     Tracking_State_4 = 9,
-    //% block="● ● ● ●" 
+    //% block="● ● ● ●"
     Tracking_State_5 = 15,
-    //% block="● ◌ ● ●" 
+    //% block="● ◌ ● ●"
     Tracking_State_6 = 13,
-    //% block="● ● ◌ ●" 
+    //% block="● ● ◌ ●"
     Tracking_State_7 = 11,
 
-    //% block="● ◌ ◌ ◌" 
+    //% block="● ◌ ◌ ◌"
     Tracking_State_8 = 1,
-    //% block="● ● ● ◌" 
+    //% block="● ● ● ◌"
     Tracking_State_9 = 7,
-    //% block="● ◌ ● ◌" 
+    //% block="● ◌ ● ◌"
     Tracking_State_10 = 5,
-    //% block="● ● ◌ ◌" 
+    //% block="● ● ◌ ◌"
     Tracking_State_11 = 3,
 
-    //% block="◌ ◌ ◌ ●" 
+    //% block="◌ ◌ ◌ ●"
     Tracking_State_12 = 8,
-    //% block="◌ ● ● ●" 
+    //% block="◌ ● ● ●"
     Tracking_State_13 = 14,
-    //% block="◌ ◌ ● ●" 
+    //% block="◌ ◌ ● ●"
     Tracking_State_14 = 12,
-    //% block="◌ ● ◌ ●" 
+    //% block="◌ ● ◌ ●"
     Tracking_State_15 = 10
 }
 
 enum TrackbitType {
-    //% block="◌" 
+    //% block="◌"
     State_0 = 0,
-    //% block="●" 
+    //% block="●"
     State_1 = 1
 }
+
 enum TrackbitChannel {
     //% block="1"
     One = 1,
@@ -209,32 +200,32 @@ enum ServoType {
 }
 
 enum SonarUnit {
-    //% block="cm"
+    //% block="cm(센티미터)"
     Centimeters,
-    //% block="inches"
+    //% block="inch(인치)"
     Inches
 }
 
 enum CutbotProIRButtons {
-    //% block="off"
+    //% block="전원(OFF)"
     Off = 1,
-    //% block="menu"
+    //% block="메뉴"
     Menu = 2,
-    //% block="up"
+    //% block="위"
     Up = 5,
-    //% block="left"
+    //% block="왼쪽"
     Left = 8,
-    //% block="right"
+    //% block="오른쪽"
     Right = 10,
-    //% block="down"
+    //% block="아래"
     Down = 13,
-    //% block="ok"
+    //% block="확인(OK)"
     OK = 9,
-    //% block="plus"
+    //% block="더하기(+)"
     Plus = 4,
-    //% block="minus"
+    //% block="빼기(-)"
     Minus = 12,
-    //% block="back"
+    //% block="뒤로"
     Back = 6,
     //% block="0"
     Zero = 14,
@@ -266,7 +257,8 @@ let distanceUnitsFlag = 0
 let fourWayStateValue = 0
 let pulseCntL = 0
 let pulseCntR = 0
-//% weight=100 color=#008C8C block="Cutebot Pro" blockId="Cutebot Pro" icon="\uf48b"
+
+//% weight=100 color=#008C8C block="큐트봇 프로" blockId="Cutebot Pro" icon="\uf48b"
 namespace CutebotPro {
 
     /**
@@ -289,8 +281,8 @@ namespace CutebotPro {
     /**
     * PWM control the car to travel at a specific speed
     */
-    //% group="Basic control"
-    //% block="set left wheel speed %speedL\\%, right wheel speed %speedR\\%"
+    //% group="기본 조작"
+    //% block="왼쪽 바퀴 속도 %speedL\\%, 오른쪽 바퀴 속도 %speedR\\%"
     //% speed.min=-100 speed.max=100
     //% weight=340
     export function pwmCruiseControl(speedL: number, speedR: number): void {
@@ -304,9 +296,9 @@ namespace CutebotPro {
     /**
      * full speed forward
      */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=360
-    //%block="go forward at full speed"
+    //% block="최대 속도로 앞으로 가기"
     export function fullSpeedAhead(): void {
         if (readHardVersion() == 2) {
             cutebotProV2.motorControl(2, 100, 100)
@@ -318,9 +310,9 @@ namespace CutebotPro {
     /**
      * full speed reverse
      */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=350
-    //%block="go reverse at full speed"
+    //% block="최대 속도로 뒤로 가기"
     export function fullAstern(): void {
         if (readHardVersion() == 2) {
             cutebotProV2.motorControl(2, -100, -100)
@@ -332,9 +324,9 @@ namespace CutebotPro {
     /**
      * stop immediately
      */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=330
-    //%block="set %CutebotProMotors to stop immediately"
+    //% block="%CutebotProMotors 바로 멈추기"
     export function stopImmediately(wheel: CutebotProMotors): void {
         if (readHardVersion() == 2) {
             cutebotProV2.motorControl(wheel - 1, 0, 0);
@@ -343,15 +335,12 @@ namespace CutebotPro {
         }
     }
 
-
-
-
     /**
      * read motor speed
      */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=320
-    //%block="get speed of %CutebotProMotors1 %CutebotProSpeedUnits"
+    //% block="%CutebotProMotors1 속도(%CutebotProSpeedUnits) 읽기"
     export function readSpeed(motor: CutebotProMotors1, speedUnits: CutebotProSpeedUnits): number {
         if (readHardVersion() == 2) {
             return cutebotProV2.readSpeed(motor - 1, speedUnits);
@@ -367,7 +356,7 @@ namespace CutebotPro {
         cutebotProV1.pulseNumber();
     }
 
-    /**    
+    /**
      * obtain the number of pulses produced by the coded motor on both sides of the wheel
     */
     export function readPulsenumberTest(motor: CutebotProMotors1): number {
@@ -377,9 +366,9 @@ namespace CutebotPro {
     /**
     * get the rotation degrees of wheel
     */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=310
-    //%block="get rotation degrees of %CutebotProMotors1"
+    //% block="%CutebotProMotors1 바퀴가 돈 각도(°) 읽기"
     export function readDistance(motor: CutebotProMotors1): number {
         if (readHardVersion() == 2) {
             return cutebotProV2.readDistance(motor - 1);
@@ -388,15 +377,12 @@ namespace CutebotPro {
         }
     }
 
-
-
-
     /**
      * clear the rotation degrees of wheel
      */
-    //% group="Basic control"
+    //% group="기본 조작"
     //% weight=300
-    //%block="clear rotation degrees of %CutebotProMotors1"
+    //% block="%CutebotProMotors1 바퀴 각도 초기화"
     export function clearWheelTurn(motor: CutebotProMotors1): void {
         if (readHardVersion() == 2) {
             cutebotProV2.clearWheelTurn(motor - 1);
@@ -405,16 +391,15 @@ namespace CutebotPro {
         }
     }
 
-
     /**
     * select a headlights and set the RGB color.
     * @param R R color value of RGB color
     * @param G G color value of RGB color
     * @param B B color value of RGB color
     */
-    //% group="LED headlights"
+    //% group="앞 LED"
     //% inlineInputMode=inline
-    //% blockId=RGB block="set LED headlights %CutebotProRGBLight color to R:%r G:%g B:%b"
+    //% blockId=RGB block="앞 LED(%CutebotProRGBLight) 색 R:%r G:%g B:%b"
     //% r.min=0 r.max=255
     //% g.min=0 g.max=255
     //% b.min=0 b.max=255
@@ -429,12 +414,11 @@ namespace CutebotPro {
         }
     }
 
-
     /**
     * set LED headlights.
     */
-    //% group="LED headlights"
-    //% block="set LED headlights %CutebotProRGBLight color to $color"
+    //% group="앞 LED"
+    //% block="앞 LED(%CutebotProRGBLight) 색을 %color로"
     //% color.shadow="colorNumberPicker"
     //% weight=290
     export function colorLight(light: CutebotProRGBLight, color: number) {
@@ -449,8 +433,8 @@ namespace CutebotPro {
     /**
     * turn off all the LED lights
     */
-    //% group="LED headlights"
-    //% block="turn off all LED headlights"
+    //% group="앞 LED"
+    //% block="앞 LED 모두 끄기"
     //% weight=270
     export function turnOffAllHeadlights(): void {
         if (readHardVersion() == 2) {
@@ -463,9 +447,9 @@ namespace CutebotPro {
     /**
     * get a status value of the 4-way line following sensor
     */
-    //% group="Tracking sensor"
+    //% group="라인 센서"
     //% weight=270
-    //% block="get a tracking sensor state value"
+    //% block="라인 센서 상태값 읽기"
     export function trackbitStateValue() {
         if (readHardVersion() == 2) {
             cutebotProV2.trackbitStateValue();
@@ -477,9 +461,9 @@ namespace CutebotPro {
     /**
     * 4-way line following sensor offset
     */
-    //% group="Tracking sensor"
+    //% group="라인 센서"
     //% weight=250
-    //%block="fused offset value"
+    //% block="라인 센서 오프셋 값"
     export function getOffset(): number {
         if (readHardVersion() == 2) {
             return cutebotProV2.getOffset();
@@ -491,9 +475,9 @@ namespace CutebotPro {
     /**
     * get Grayscale Sensor State
     */
-    //% group="Tracking sensor"
+    //% group="라인 센서"
     //% weight=260
-    //%block="tracking sensor state is %TrackbitStateType"
+    //% block="라인 센서 상태가 %TrackbitStateType 인가?"
     export function getGrayscaleSensorState(state: TrackbitStateType): boolean {
         if (readHardVersion() == 2) {
             return cutebotProV2.getGrayscaleSensorState(state);
@@ -505,9 +489,9 @@ namespace CutebotPro {
     /**
     * check whether the channel is online
     */
-    //% group="Tracking sensor"
+    //% group="라인 센서"
     //% weight=240
-    //% block="channel %TrackbitChannel tracking sensor %TrackbitType"
+    //% block="%TrackbitChannel번 센서가 %TrackbitType 인가?"
     export function trackbitChannelState(channel: TrackbitChannel, state: TrackbitType): boolean {
         if (readHardVersion() == 2) {
             return cutebotProV2.trackbitChannelState(channel - 1, state);
@@ -519,9 +503,9 @@ namespace CutebotPro {
     /**
     * get gray value.The range is from 0 to 255.
     */
-    //% group="Tracking sensor"
+    //% group="라인 센서"
     //% weight=230
-    //% block="channel %TrackbitChannel tracking sensor gray value"
+    //% block="%TrackbitChannel번 센서 밝기값(0~255)"
     export function trackbitgetGray(channel: TrackbitChannel): number {
         if (readHardVersion() == 2) {
             return cutebotProV2.trackbitgetGray(channel - 1);
@@ -534,8 +518,8 @@ namespace CutebotPro {
       * cars can extend the ultrasonic function to prevent collisions and other functions..
       * @param Sonarunit two states of ultrasonic module
       */
-    //% group="Sonar sensor"
-    //% blockId=ultrasonic block="sonar sensor unit %SonarUnit"
+    //% group="초음파 센서"
+    //% blockId=ultrasonic block="초음파 거리(%SonarUnit)"
     //% weight=220
     export function ultrasonic(unit: SonarUnit, maxCmDistance = 500): number {
         return cutebotProV1.ultrasonic(unit, maxCmDistance);
@@ -544,8 +528,8 @@ namespace CutebotPro {
     /**
      * control the car to travel at a specific speed (speed.min=20cm/s speed.max=50cm/s)
      */
-    //% group="PID Control"
-    //% block="set left wheel speed %speedL, right wheel speed %speedR %CutebotProSpeedUnits"
+    //% group="PID 조작(정확하게)"
+    //% block="왼쪽 %speedL, 오른쪽 %speedR (%CutebotProSpeedUnits)로 달리기"
     //% weight=210
     export function cruiseControl(speedL: number, speedR: number, speedUnits: CutebotProSpeedUnits): void {
         if (readHardVersion() == 2) {
@@ -558,9 +542,9 @@ namespace CutebotPro {
     /**
      * set the car to travel a specific distance(distance.max=255cm, distance.min=0cm)
      */
-    //% group="PID Control"
+    //% group="PID 조작(정확하게)"
     //% weight=200
-    //% block="go %CutebotProOrientation %distance %CutebotProDistanceUnits"
+    //% block="%distance %CutebotProDistanceUnits 만큼 %CutebotProOrientation 가기"
     export function distanceRunning(orientation: CutebotProOrientation, distance: number, distanceUnits: CutebotProDistanceUnits): void {
         if (readHardVersion() == 2) {
             cutebotProV2.pidRunDistance(orientation ? 0 : 1, distance, distanceUnits)
@@ -572,9 +556,9 @@ namespace CutebotPro {
     /**
      * set the car to travel a specific distance(distance.max=255cm, distance.min=0cm)
      */
-    //% group="PID V2.1.0"
+    //% group="PID 조작(추가)"
     //% weight=200
-    //% block="go %speed %CutebotProSpeedUnits %CutebotProOrientation %distance %CutebotProDistanceUnits"
+    //% block="%speed %CutebotProSpeedUnits로 %distance %CutebotProDistanceUnits 만큼 %CutebotProOrientation 가기"
     //% speed.min=20 speed.max=50 speed.defl=25
     //% inlineInputMode=inline
     export function distanceSpeedRunning(speed: number, unitspeed: CutebotProSpeedUnits, orientation: CutebotProOrientation, distance: number, distanceUnits: CutebotProDistanceUnits): void {
@@ -584,11 +568,11 @@ namespace CutebotPro {
     }
 
     /**
-     * 
+     *
      */
-    //% group="PID Control"
+    //% group="PID 조작(정확하게)"
     //% weight=200
-    //% block="set %CutebotProWheel rotation %angle %CutebotProAngleUnits"
+    //% block="%CutebotProWheel 을 %angle %CutebotProAngleUnits 만큼 돌리기"
     export function angleRunning(orientation: CutebotProWheel, angle: number, angleUnits: CutebotProAngleUnits): void {
         if (readHardVersion() == 2) {
             cutebotProV2.pidRunAngle(orientation - 1, angle, angleUnits);
@@ -598,7 +582,7 @@ namespace CutebotPro {
     }
 
     /**
-     * 
+     *
      */
     export function angleSpeedRunning(orientation: CutebotProWheel, speed: number, angle: number, angleUnits: CutebotProAngleUnits): void {
         if (readHardVersion() == 2) {
@@ -609,9 +593,9 @@ namespace CutebotPro {
     /**
     * set block length
     */
-    //% group="PID Control"
+    //% group="PID 조작(정확하게)"
     //% weight=180
-    //% block="set length of the squares as %length %CutebotProDistanceUnits"
+    //% block="한 칸 길이를 %length %CutebotProDistanceUnits 로 정하기"
     export function setBlockCnt(length: number, distanceUnits: CutebotProDistanceUnits): void {
         if (readHardVersion() == 2) {
             cutebotProV2.pidBlockSet(length, distanceUnits);
@@ -623,9 +607,9 @@ namespace CutebotPro {
     /**
     * run a specific number of block
     */
-    //% group="PID Control"
+    //% group="PID 조작(정확하게)"
     //% weight=170
-    //% block="go forward %cnt squares"
+    //% block="앞으로 %cnt 칸 가기"
     export function runBlockCnt(cnt: number): void {
         if (readHardVersion() == 2) {
             cutebotProV2.pidRunBlock(cnt);
@@ -638,9 +622,9 @@ namespace CutebotPro {
      * set the trolley to rotate at a specific Angle
      * @param angle set the angle unit
      */
-    //% group="PID Control"
+    //% group="PID 조작(정확하게)"
     //% weight=190
-    //% block="set car %CutebotProTurn for angle %angle"
+    //% block="%CutebotProTurn 로 %angle° 돌기"
     //% angle.min=0 angle.max=360
     export function trolleySteering(turn: CutebotProTurn, angle: number): void {
         if (readHardVersion() == 2) {
@@ -654,9 +638,9 @@ namespace CutebotPro {
      * set the trolley to rotate at a specific Angle
      * @param angle set the angle unit
      */
-    //% group="PID V2.1.0"
+    //% group="PID 조작(추가)"
     //% weight=190
-    //% block="set car speed %speed \\% and %CutebotProTurn for angle %angle"
+    //% block="속도 %speed \\%로 %CutebotProTurn , %angle° 돌기"
     //% speed.min=0 speed.max=100 speed.defl=50
     //% inlineInputMode=inline
     //% angle.min=0 angle.max=360
@@ -671,18 +655,18 @@ namespace CutebotPro {
         return 0;
     }
 
-    //% group="Infrared sensor"
+    //% group="리모컨(IR)"
     //% weight=160
-    //% block="on IR receiving"
-    export function irCallback(handler: (code:number) => void) {
+    //% block="리모컨(IR) 신호를 받았을 때"
+    export function irCallback(handler: (code: number) => void) {
         cutebotProV1.irCallback(handler);
     }
 
     /**
      * get IR value
      */
-    //% group="Infrared sensor"
-    //% block="IR button %CutbotProIRButtons is pressed"
+    //% group="리모컨(IR)"
+    //% block="리모컨 버튼 %CutbotProIRButtons 눌렀나요?"
     //% weight=150
     export function irButton(Button: CutbotProIRButtons): boolean {
         return cutebotProV1.irButton(Button);
@@ -691,9 +675,9 @@ namespace CutebotPro {
     /**
      * servo control module
      */
-    //% group="Expansion port"
+    //% group="확장 포트"
     //% weight=120
-    //% block="set %ServoType servo %CutebotProServoIndex angle to %angle°"
+    //% block="%ServoType 서보 %CutebotProServoIndex 각도 %angle°로 정하기"
     export function extendServoControl(servotype: ServoType, index: CutebotProServoIndex, angle: number): void {
         if (readHardVersion() == 2) {
             cutebotProV2.extendServoControl(servotype, index, angle);
@@ -705,9 +689,9 @@ namespace CutebotPro {
     /**
      * continuous servo control
      */
-    //% group="Expansion port"
+    //% group="확장 포트"
     //% weight=110
-    //% block="set continuous servo %CutebotProServoIndex speed to %speed\\%"
+    //% block="연속 서보 %CutebotProServoIndex 속도 %speed\\%로 정하기"
     export function continuousServoControl(index: CutebotProServoIndex, speed: number): void {
         if (readHardVersion() == 2) {
             cutebotProV2.continuousServoControl(index, speed);
@@ -716,14 +700,12 @@ namespace CutebotPro {
         }
     }
 
-
-
     /**
      * motor control module
      */
-    //% group="Expansion port"
+    //% group="확장 포트"
     //% weight=140
-    //% block="set motor speed to %speed\\%"
+    //% block="확장 모터 속도 %speed\\%로 정하기"
     //% speed.min=-100  speed.max=100
     export function extendMotorControl(speed: number): void {
         if (readHardVersion() == 2) {
@@ -733,13 +715,12 @@ namespace CutebotPro {
         }
     }
 
-
     /**
      * extend motor stop
      */
-    //% group="Expansion port"
+    //% group="확장 포트"
     //% weight=130
-    //% block="stop motor"
+    //% block="확장 모터 멈추기"
     export function extendMotorStop(): void {
         if (readHardVersion() == 2) {
             cutebotProV2.extendMotorStop();
@@ -748,19 +729,18 @@ namespace CutebotPro {
         }
     }
 
-    /** 
+    /**
     * read version number
     */
-    //% group="Others"
+    //% group="기타"
     //% weight=1
-    //% block="version number"
+    //% block="버전 번호"
     export function readVersions(): string {
         if (readHardVersion() == 2) {
             return cutebotProV2.readVersions();
         } else {
             return cutebotProV1.readVersions();
         }
-
     }
 
     let version = -1;
